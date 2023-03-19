@@ -3,7 +3,7 @@ from collections import defaultdict
 from telebot import TeleBot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-token = "6214565010:AAGOdnxPDXAp43A9SoF3DMcvlYJIpni0Yc0"
+token = "Token"
 
 class MemoBot:
     def __init__(self, token):
@@ -11,7 +11,7 @@ class MemoBot:
         
         self.action = ''
         self.input = ''
-        self.balgyn_chat_id = '499171235'
+        self.balgyn_chat_id = 'your_chat_id'
 
     def start(self, message):
         print(self.get_categories())
